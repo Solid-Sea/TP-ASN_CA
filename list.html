@@ -1,17 +1,87 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>舰船列表</title>
+<head>
+  <meta charset="utf-8">
+  <title>舰船列表</title>
+  <link rel="stylesheet" href="style.css">
 	</head>
-	<body>
-		<!body bgcolor="cyan">
-		<h3 align=center>群山空间航行管制局 CAAUM注册列表</h3><br>
-		船名	型号	类型	用途	机龄(年)	注册号	注册地	运营方	当前状态	备注	记录员<br>
-		<a href="/tp/RC2233/RC2233.html">红楼	  QBC-100	飞船	勘探	21	RC-2233	群山	红楼商船队	失踪	上面叫我们别再查了	CAA21<br>
-		<a href="/tp/B-9618/B-9618.html">杂货铺  A320-232	飞船	客运	6550	B-6918	中国大陆	A320的杂货铺	运营	再审核一遍机龄	CAA35<br>
-		红壶	自建	空间站	居住	12	已注销	群山	红壶通讯社	已注销	CAA23看完给局长	CAA42<br>
-		<a href="/tp/YH4271/YH4271.html">银河	 QBC-400F	飞船	货运	5	YH-4271	新伊朗	金辰运输		运营	无法调取系外事故记录	CAA21<br>
-		
-	</body>
+<body>
+  <div class="header">
+    <h3>群山空间航行管制局 CAAUM注册列表</h3>
+  </div>
+  
+  <div class="table-container">
+    <table class="ship-table">
+      <thead>
+        <tr>
+          <th>船名</th>
+          <th>型号</th>
+          <th>类型</th>
+          <th>用途</th>
+          <th>机龄(年)</th>
+          <th>注册号</th>
+          <th>注册地</th>
+          <th>运营方</th>
+          <th>当前状态</th>
+          <th>备注</th>
+          <th>记录员</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><a href="tp/RC2233/RC2233.html">红楼</a></td>
+          <td>QBC-100</td>
+          <td>飞船</td>
+          <td>勘探</td>
+          <td>21</td>
+          <td>RC-2233</td>
+          <td>群山</td>
+          <td>红楼商船队</td>
+          <td>失踪</td>
+          <td>上面叫我们别再查了</td>
+          <td>CAA21</td>
+        </tr>
+        <tr>
+          <td><a href="tp/B-9618/B-9618.html">杂货铺</a></td>
+          <td>A320-232</td>
+          <td>飞船</td>
+          <td>客运</td>
+          <td>6550</td>
+          <td>B-6918</td>
+          <td>中国大陆</td>
+          <td>A320的杂货铺</td>
+          <td>运营</td>
+          <td>再审核一遍机龄</td>
+          <td>CAA35</td>
+        </tr>
+        <tr>
+          <td>红壶</td>
+          <td>自建</td>
+          <td>空间站</td>
+          <td>居住</td>
+          <td>12</td>
+          <td>已注销</td>
+          <td>群山</td>
+          <td>红壶通讯社</td>
+          <td>已注销</td>
+          <td>CAA23看完给局长</td>
+          <td>CAA42</td>
+        </tr>
+        <tr>
+          <td><a href="tp/YH4271/YH4271.html">银河</a></td>
+          <td>QBC-400F</td>
+          <td>飞船</td>
+          <td>货运</td>
+          <td>5</td>
+          <td>YH-4271</td>
+          <td>新伊朗</td>
+          <td>金辰运输</td>
+          <td>运营</td>
+          <td>无法调取系外事故记录</td>
+          <td>CAA21</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</body>
 </html>
